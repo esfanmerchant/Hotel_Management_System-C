@@ -69,7 +69,7 @@ Follow these steps to set up and run the system:
 
 1. **Clone the repository:**  
    ```sh
-   git clone https://github.com/yourusername/hotel-management-system.git
+   git clone https://github.com/esfanmerchant/Hotel_Management_System-C.git
    ```
 2. **Navigate to the project directory:**  
    ```sh
