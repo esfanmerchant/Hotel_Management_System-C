@@ -1,108 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Management System - README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            line-height: 1.6;
-        }
-        h1, h2, h3 {
-            color: #2c3e50;
-        }
-        pre {
-            background: #f4f4f4;
-            padding: 10px;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
-        code {
-            color: #c0392b;
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-    <h1>Hotel Management System</h1>
-    
-    <h2>📌 Overview</h2>
-    <p>The <strong>Hotel Management System</strong> is a robust and user-friendly system developed in <strong>C language</strong>, designed to streamline hotel operations efficiently. This system integrates functionalities for both <strong>users (guests)</strong> and <strong>administrators (hotel staff)</strong>, providing a seamless experience for managing hotel operations.</p>
-    
-    <h2>🚀 Features</h2>
-    <h3>✅ User Features</h3>
-    <ul>
-        <li>Book a room from available options.</li>
-        <li>View room details (price, availability, amenities, etc.).</li>
-        <li>Place food & drink orders from the hotel menu.</li>
-        <li>Check out with a detailed bill.</li>
-        <li>View booking history and previous orders.</li>
-        <li>Cancel or modify a booking.</li>
-        <li>Secure user authentication.</li>
-    </ul>
-    
-    <h3>🔐 Admin Features</h3>
-    <ul>
-        <li>Add, update, or delete room information.</li>
-        <li>Manage user bookings.</li>
-        <li>Track food & beverage orders.</li>
-        <li>View and manage guest check-in/check-out details.</li>
-        <li>Generate billing and revenue reports.</li>
-        <li>Secure admin authentication.</li>
-    </ul>
-    
-    <h3>🛡️ Security Features</h3>
-    <ul>
-        <li>User and admin authentication for secure access.</li>
-        <li>Data encryption for sensitive information.</li>
-        <li>Restricted access control for admin functionalities.</li>
-    </ul>
-    
-    <h3>📂 File Handling Features</h3>
-    <ul>
-        <li>Store hotel room details in structured files.</li>
-        <li>Keep a record of guest details securely.</li>
-        <li>Maintain food & drink order logs.</li>
-        <li>Automatically update files when bookings, check-ins, or orders are modified.</li>
-        <li>Ensure <strong>data persistence</strong> even after the program terminates.</li>
-    </ul>
-    
-    <h2>🛠️ Installation & Usage</h2>
-    <h3>Prerequisites:</h3>
-    <ul>
-        <li>A <strong>C compiler</strong> (GCC recommended)</li>
-        <li>Any <strong>C-supported IDE</strong> (e.g., Code::Blocks, Dev-C++, VS Code, etc.)</li>
-    </ul>
-    
-    <h3>Steps to Run:</h3>
-    <pre>
-    git clone https://github.com/yourusername/hotel-management-system.git
-    cd hotel-management-system
-    gcc hotel_management.c -o hotel_management
-    ./hotel_management
-    </pre>
-    
-    <h2>🤝 Contribution Guidelines</h2>
-    <p>We welcome contributions! Follow these steps to contribute:</p>
-    <ol>
-        <li><strong>Fork</strong> the repository.</li>
-        <li><strong>Create a new branch</strong> (<code>feature-new-functionality</code>).</li>
-        <li><strong>Commit changes</strong> with clear messages.</li>
-        <li><strong>Push to your branch</strong> and create a <strong>Pull Request</strong>.</li>
-    </ol>
-    
-    <h2>📜 License</h2>
-    <p>This project is licensed under the <strong>MIT License</strong> – free to use and modify.</p>
-    
-    <h2>📩 Contact & Support</h2>
-    <p>For any queries or issues, reach out via:</p>
-    <ul>
-        <li>GitHub Issues: <a href="https://github.com/yourusername/hotel-management-system/issues">Open an issue</a></li>
-        <li>Email: your.email@example.com</li>
-    </ul>
-    
-    <p>Enjoy using the <strong>Hotel Management System</strong>! 🎉</p>
-</body>
-</html>
+# 🏨 Hotel Management System
+
+## 📌 Overview  
+The **Hotel Management System** is a **feature-rich hotel operations software** written in **C language**. This system efficiently handles **room bookings, guest management, food orders, and billing**. Both **guests and admins** have dedicated functionalities, ensuring a seamless experience.  
+
+With **file handling for data storage, security features for user privacy, and real-time updates**, this system is **reliable, scalable, and secure** for any hotel business.  
+
+### ✨ Key Features:  
+- ✅ **User-Friendly Interface**  
+- ✅ **Seamless Room & Booking Management**  
+- ✅ **Integrated Food & Drinks Ordering System**  
+- ✅ **Secure Data Storage & Authentication**  
+- ✅ **Automated Invoice Generation**  
+- ✅ **Smooth Data Flow & Real-Time Updates**  
+
+---
+
+## 🛠 Features  
+
+### 🔹 **Guest Features:**  
+✔️ **Easy Room Booking & Cancellation** – Book, modify, or cancel reservations hassle-free.  
+✔️ **Food & Drink Ordering** – Order meals directly through the system.  
+✔️ **Guest Profile Management** – Securely update and manage personal details.  
+✔️ **Invoice & Billing System** – Receive a detailed bill for all services used.  
+✔️ **Check-in & Check-out System** – Simplifies guest registration and departure.  
+✔️ **Privacy & Security** – All guest data is stored securely.  
+
+### 🔹 **Admin Features:**  
+✔️ **Room Allocation & Status Management** – Manage room availability and assignments.  
+✔️ **Guest & Booking Database** – View, edit, and delete guest records.  
+✔️ **Inventory & Stock Tracking** – Keep track of food, drinks, and supplies.  
+✔️ **Billing & Payment Management** – Generate invoices and process payments.  
+✔️ **Secure Login System** – Only authorized admins can access sensitive features.  
+✔️ **Activity Logs & Reports** – Keep track of all transactions and bookings.  
+
+---
+
+## 🔒 Security Features  
+🔐 **Admin Authentication** – Prevents unauthorized access.  
+🔐 **Encrypted File Handling** – Protects guest and hotel data.  
+🔐 **Audit Logs & History Tracking** – Records system activities.  
+🔐 **Data Validation & Input Sanitization** – Prevents errors and vulnerabilities.  
+
+---
+
+## 🗄️ Data Storage & File Handling  
+💾 **Persistent Data Storage** – All data is stored securely using **C File Handling**.  
+📂 **Structured File Management** – Separate files for rooms, guests, and orders.  
+🔄 **Auto-Update Mechanism** – Real-time data updates without manual intervention.  
+
+### 📂 Required Data Files  
+Ensure that the following data files exist in the project directory. If not, the system will create them automatically.  
+
+- **Rooms Data:** `rooms.txt`  
+- **Guest Records:** `guests.txt`  
+- **Orders & Bills:** `orders.txt`  
+
+---
+
+## 💻 Technologies Used  
+- 🔹 **Programming Language:** C  
+- 🔹 **Data Handling:** File Handling (Text/Binary Files)  
+- 🔹 **Security:** Authentication & Data Validation  
+
+---
+
+## 🚀 Installation
+Follow these steps to set up and run the system:
+
+1. **Clone the repository:**  
+   ```sh
+   git clone https://github.com/yourusername/hotel-management-system.git
+   ```
+2. **Navigate to the project directory:**  
+   ```sh
+   cd hotel-management-system
+   ```
+3. **Compile the code using a C compiler:**  
+   ```sh
+   gcc hotel_management.c -o hotel_management
+   ```
+4. **Run the executable:**  
+   ```sh
+   ./hotel_management
+   ```
+
+## 📜 License
+This project is licensed under the **MIT License**. Feel free to modify and use it as per your requirements.
+
+## 🤝 Contributing  
+💡 **Want to contribute?** Here's how:  
+1️⃣ **Fork the repository**  
+2️⃣ **Make your changes**  
+3️⃣ **Submit a pull request (PR)**  
+
+For major changes, please open an **issue** first to discuss.  
+
+💙 **Developed with passion by Esfan Merchant** 💙  
+
+---
+
+## 📞 Contact  
+📧 **Email:** esfanmerchant@gmail.com  
+🔗 **GitHub:** [github.com/esfanmerchant](https://github.com/esfanmerchant)  
+
